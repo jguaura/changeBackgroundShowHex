@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #2A363B;
+    color: #99B898;
+}
+
+.btn {
+    margin-top: 1rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: 5px;
+    color: #99B898;
+    background-color: #2A363B;
+    border: 2px solid #99B898;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: translateY(1px);
+    box-shadow: 0 0 8px #99B898;
+}
+
+.codigoHex {
+    font-size: 3rem;
+    margin-left: 10px;
+}
